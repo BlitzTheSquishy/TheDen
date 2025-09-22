@@ -23,10 +23,6 @@ phrase-location-left = left
 phrase-location-right = right
 phrase-location-top = top
 phrase-location-bottom = bottom
-phrase-location-up = up
-phrase-location-down = down
-phrase-location-front = front
-phrase-location-back = back
 
 ## compass
 phrase-location-north = north

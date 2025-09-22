@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Blitz
-# SPDX-FileCopyrightText: 2025 marc-pelletier
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: crystallizerRecipe
   id: metalHydrogenRecipe
   name: Metal Hydrogen
@@ -13,8 +8,26 @@
     MetalHydrogen1: 1
   dangerous: false
   minimumRequirements:
-    BZ: 50
-    Hydrogen: 300
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 50    # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 300   # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: healiumCrystalRecipe
@@ -26,9 +39,26 @@
     HealiumCrystal: 1
   dangerous: false
   minimumRequirements:
-    Oxygen: 120
-    Plasma: 50
-    Healium: 100
+  - 120   # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 50    # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 100   # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: protoNitrateCrystalRecipe
@@ -40,9 +70,26 @@
     ProtoNitrateCrystal: 1
   dangerous: false
   minimumRequirements:
-    Oxygen: 80
-    Nitrogen: 80
-    ProtoNitrate:  100
+  - 80    # oxygen
+  - 80    # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 0     # hypernob
+  - 100   # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: ammoniaCrystalRecipe
@@ -54,8 +101,26 @@
     AmmoniaCrystal: 2
   dangerous: false
   minimumRequirements:
-    Nitrogen: 40
-    Hydrogen: 50
+  - 0     # oxygen
+  - 40    # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 50    # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: supermatterSliverRecipe
@@ -67,11 +132,26 @@
     SupermatterSliver: 1
   dangerous: true
   minimumRequirements:
-    Oxygen: 4500
-    Plasma: 5000
-    BZ: 200
-    HyperNoblium: 250
-    AntiNoblium: 250
+  - 4500  # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 5000  # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 200   # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 250   # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 250   # antinob
 
 - type: crystallizerRecipe
   id: nitrousOxideCrystalRecipe
@@ -83,8 +163,26 @@
     NitrousOxideCrystal: 1
   dangerous: false
   minimumRequirements:
-    NitrousOxide: 150
-    BZ: 30
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 150   # n2o
+  - 0     # frezon
+  - 30    # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: diamondRecipe
@@ -96,7 +194,26 @@
     MaterialDiamond1: 1
   dangerous: false
   minimumRequirements:
-    CarbonDioxide: 1500
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 1500  # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: plasmaSheetRecipe
@@ -108,7 +225,26 @@
     SheetPlasma1: 1
   dangerous: false
   minimumRequirements:
-    Plasma: 450
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 450   # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: crystalCellRecipe
@@ -120,9 +256,26 @@
     CrystalCell: 1
   dangerous: false
   minimumRequirements:
-    Plasma: 800
-    BZ: 50
-    Helium: 100
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 800   # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 50    # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 0     # zauker
+  - 0     # halon
+  - 100   # helium
+  - 0     # antinob
 
 - type: crystallizerRecipe
   id: zaukeriteRecipe
@@ -134,6 +287,23 @@
     Zaukerite1: 1
   dangerous: false
   minimumRequirements:
-    BZ: 7.5
-    Zauker: 20
-    AntiNoblium: 5
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 7.5   # bz
+  - 0     # healium
+  - 0     # nitrium
+  - 0     # pluox
+  - 0     # hydrogen
+  - 0     # hypernob
+  - 0     # protonitrate
+  - 20    # zauker
+  - 0     # halon
+  - 0     # helium
+  - 5     # antinob

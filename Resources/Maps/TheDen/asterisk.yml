@@ -69425,7 +69425,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: office, mantiss
+      id: office, mantis's
   - uid: 9682
     components:
     - type: Transform

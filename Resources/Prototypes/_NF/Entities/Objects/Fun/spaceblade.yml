@@ -1,4 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Blitz
 # SPDX-FileCopyrightText: 2025 Eightballll
 # SPDX-FileCopyrightText: 2025 MajorMoth
 #
@@ -18,7 +17,7 @@
     air:
       volume: 1
       moles:
-        Oxygen: 0.4101137219
+         - 0.4101137219 # oxygen
       temperature: 293.15
   - type: Physics
     bodyType: Dynamic
@@ -268,5 +267,12 @@
     air:
       volume: 1
       moles:
-        NitrousOxide: 0.4101137219
+         - 0 # oxygen
+         - 0 # nitrogen
+         - 0 # CO2
+         - 0 # plasma
+         - 0 # tritium
+         - 0 # water vapor
+         - 0 # miasma
+         - 0.4101137219 # N2O
       temperature: 293.15

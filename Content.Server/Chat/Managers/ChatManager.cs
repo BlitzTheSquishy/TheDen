@@ -47,7 +47,7 @@
 // SPDX-FileCopyrightText: 2025 Simon
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
@@ -325,10 +325,10 @@ internal sealed partial class ChatManager : IChatManager
         }
 
         if (_netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor)
-            && _discordUserLink!.GetRoleColor(player.UserId, out var hex)
-            && hex != null)
+            && _discordUserLink!.IsPatron(player.UserId))
         {
-            wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", hex),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+            var colorPair = PatronOocColors.First();
+            wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", colorPair.Value),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
         }
 
         //TODO: player.Name color, this will need to change the structure of the MsgChatMessage

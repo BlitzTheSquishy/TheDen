@@ -1,10 +1,8 @@
-// SPDX-FileCopyrightText: 2025 Azzy
-// SPDX-FileCopyrightText: 2025 Lyndomen
-// SPDX-FileCopyrightText: 2025 Shaman
-// SPDX-FileCopyrightText: 2025 portfiend
-// SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2025 Lyndomen <49795619+Lyndomen@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 sleepyyapril <flyingkarii@gmail.com>
 //
-// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using System.Linq;
 using System.Text.Json.Serialization;
@@ -20,7 +18,7 @@ namespace Content.Shared._CD.Records;
 public sealed partial class PlayerProvidedCharacterRecords
 {
     public const int TextMedLen = 64;
-    public const int TextVeryLargeLen = 65536;
+    public const int TextVeryLargeLen = 4096;
 
     /* Basic info */
 
